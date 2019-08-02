@@ -64,8 +64,8 @@ except ImportError:
 setup(
     name='terraform-bin',
     version=VERSION,
-    description='Epiphany cli',
     long_description=readme,
+    long_description_content_type='text/markdown',
     author='Epiphany Team',
     author_email='',
     url='https://github.com/epiphany-platform/terraform-bin',

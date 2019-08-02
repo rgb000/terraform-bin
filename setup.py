@@ -13,9 +13,6 @@ TERRAFORM_VERSION = '0.12.6'
 with open('README.md') as f:
     readme = f.read()
 
-with open('LICENSE') as f:
-    license = f.read() 
-
 def download_terraform(platform='linux'):
     base_url = f'https://releases.hashicorp.com/terraform/{TERRAFORM_VERSION}'
     file_name = f'terraform_{TERRAFORM_VERSION}_{platform}_amd64.zip'
@@ -69,7 +66,7 @@ setup(
     author='Epiphany Team',
     author_email='',
     url='https://github.com/epiphany-platform/terraform-bin',
-    license=license,
+    license='Apache License Version 2.0',
     py_modules=['terraform'],
     data_files=[
         ('lib', ['lib/terraform_linux', 'lib/terraform_darwin', 'lib/terraform_windows.exe']),

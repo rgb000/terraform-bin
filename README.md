@@ -12,13 +12,7 @@ terraform init # Now you can use terraform, after you installed it with Pipenv o
 
 ## Build wheel
 
-Windows:
-
-```sh
-build-wheel.bat
-```
-
-Linux/Mac:
+Works only on Mac/Linux for distributing since we need to set the execution rights of the binaries properly. Windows doesnt allow this.
 
 ```sh
 build-wheel.sh

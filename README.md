@@ -5,7 +5,7 @@ This is a Python wrapper for Hashicorp's Terraform. Using `terraform-bin` you ca
 ## Usage
 
 ```sh
-pipenv install --dev terraform-bin
+pipenv install terraform-bin
 
 terraform init # Now you can use terraform, after you installed it with Pipenv or Pip.
 ```
